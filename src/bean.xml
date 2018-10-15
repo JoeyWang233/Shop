@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<!-- 配置AdminServiceImpl的清单 -->
+	<bean id="adminService" class="com.itheima.service.impl.AdminServiceImpl"></bean>
+	<bean id="productService" class="com.itheima.service.impl.ProductServiceImpl"></bean>
+	<bean id="userService" class="com.itheima.service.impl.UserServiceImpl"></bean>
+	
+	<bean id="adminDao" class="com.itheima.dao.impl.AdminDaoImpl"></bean>
+	<bean id="productDao" class="com.itheima.dao.impl.ProductDaoImpl"></bean>
+	<bean id="userDao" class="com.itheima.dao.impl.UserDaoImpl"></bean>
+	
+</beans>
